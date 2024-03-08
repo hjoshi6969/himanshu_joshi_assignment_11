@@ -14,21 +14,21 @@ export default {
 
 const Template = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  label: "Primary Button",
-  backgroundColor: "#008cff",
+export const DownloadResume = Template.bind({});
+DownloadResume.args = {
+  label: "Download Resume",
+  backgroundColor: "#FF004D",
   fontColor: "white",
-  borderColor: "#008cff",
+  borderColor: "#FF004D",
   Disable: false,
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: "Secondary Button",
-  backgroundColor: "white",
-  fontColor: "black",
-  borderColor: "black",
+export const Connect = Template.bind({});
+Connect.args = {
+  label: "Connect",
+  backgroundColor: "#387ADF",
+  fontColor: "white",
+  borderColor: "#387ADF",
   Disable: false,
 };
 

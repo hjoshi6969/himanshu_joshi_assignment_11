@@ -5,20 +5,20 @@ export default {
   title: "Hero",
   component: Hero,
   argTypes: {
-    Disable: { control: 'boolean' },
+    Mobile: { control: 'boolean' },
   },
 }  
 
 const Template = (args) => <Hero {...args} />;
 
-export const Normal = Template.bind({});
-Normal.args = {
+export const PCVersion = Template.bind({});
+PCVersion.args = {
   link: "https://wallpaper.dog/large/17167859.gif",
-  Disable: false,
+  Mobile: false,
 };
 
-export const Disable = Template.bind({});
-Disable.args = {
+export const MobileVersion = Template.bind({});
+MobileVersion.args = {
   link: "https://wallpaper.dog/large/17167859.gif",
-  Disable: true, 
+  Mobile: false, 
 };
